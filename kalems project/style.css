@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: navy;
+
+  background-size: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+}
+
+li a:hover {
+  background-color: #2959c6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 40%;
+  padding-right: 40%;
+  height: 100%;
+}
+
+#mypic {
+  width: 250px;
+  height: 250px;
+}
+
+h2,
+h3 {
+  color: white;
+  font-family: "Istok Web", sans-serif;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  justify-content: start;
+}
+
+.icons > div {
+  margin-right: 0.5em;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  //margin-top: 100vh;
+  padding-left: 10vw;
+  // border:solid;
+  font-family: "Poppins", sans-serif;
+  padding-right: 10vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.skills-container {
+  background-color: #ddd;
+  width: 50%;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #4caf50;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+
+.js {
+  width: 60%;
+  background-color: #f44336;
+}
+
+.py {
+  width: 60%;
+  background-color: deeppink;
+}
+
+.sql {
+  width: 60%;
+  background-color: gold;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 2em;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  box-shadow: 5px 5px 20px rgb(153, 172, 255);
+  padding: 10px;
+  color: white;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
